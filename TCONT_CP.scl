@@ -1027,7 +1027,7 @@ FUNCTION_BLOCK FB58
               sIanteilAlt := LMN_I ;
               sSpOld := SP_INT ;
               LMN := dLmn * LMN_FAC + LMN_OFFS ;
-              dLmn := LMN * 264.8 ;
+              dLmn := LMN * 276.48 ;
               IF dLmn >= 32511.0 THEN
                   dLmn := 32511.0 ;
               ELSIF dLmn <= -32512.0 THEN
